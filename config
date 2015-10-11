@@ -1,18 +1,66 @@
 [global_config]
+  window_state = maximise
 [keybindings]
 [layouts]
   [[default]]
-    [[[child1]]]
-      parent = window0
-      type = Terminal
-    [[[window0]]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = ff53a7e1-8a2b-4859-ac88-579897cacd6d
+      last_active_window = True
+      maximised = True
+      order = 0
       parent = ""
+      position = 37:24
+      size = 1883, 1056
+      title = bo@OptiPlex-9020: ~
       type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 525
+      ratio = 0.5
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 938
+      ratio = 0.499734466277
+      type = HPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 938
+      ratio = 0.499734466277
+      type = HPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = ff53a7e1-8a2b-4859-ac88-579897cacd6d
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 6f8b6a0d-3211-49f2-a79a-33abca49d320
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 8f813a2a-b2fa-4ca4-9844-88db50092ba2
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 92e23f09-14ee-4fc8-9f2a-18888fe7edb2
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#300A24"
+    background_color = "#300a24"
     background_image = None
     font = Monospace 11
-    foreground_color = "#FFFFFF"
+    foreground_color = "#ffffff"
     use_system_font = False
